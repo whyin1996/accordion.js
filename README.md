@@ -48,15 +48,20 @@ It is a simple accordion javascript library providing flexible control with usin
 
 > The structure of accordion view are shown as below 
 
-container
--> button
--> content
+```
+<div class="{{CONTAINER}}">
+    <div class="{{BUTTON}}"></div>
+    <div class="{{CONTENT}}"></div>
+</div>
+```
 
-> the button and the content element must within container element while you are feel free to change the order of the elements within container.
+> the button and the content element must within container element while you are feel free to change the order of the elements within container. for example...
 
-e.g. 
-container
-    -> content
-    -> button
+```
+<div class="{{CONTAINER}}">
+    <div class="{{CONTENT}}"></div>
+    <div class="{{BUTTON}}"></div>
+</div>
+```
 
 #### For further information, please refer to the example in dist folder. 
