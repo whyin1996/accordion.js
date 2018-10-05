@@ -44,4 +44,19 @@ It is a simple accordion javascript library providing flexible control with usin
 
 > You are feel free to change these class and what you need to do is to pass the relevant valid class string of your elements to accordion.js
 
+# The structure of accordion view
+
+> The structure of accordion view are shown as below 
+
+container
+-> button
+-> content
+
+> the button and the content element must within container element while you are feel free to change the order of the elements within container.
+
+e.g. 
+container
+    -> content
+    -> button
+
 #### For further information, please refer to the example in dist folder. 
