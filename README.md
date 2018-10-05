@@ -64,4 +64,12 @@ It is a simple accordion javascript library providing flexible control with usin
 </div>
 ```
 
+> but you CANNOT ...
+```
+<div class="{{CONTAINER}}">
+    <div class="{{CONTENT}}"></div>
+</div>
+<div class="{{BUTTON}}"></div>
+```
+
 #### For further information, please refer to the example in dist folder. 
